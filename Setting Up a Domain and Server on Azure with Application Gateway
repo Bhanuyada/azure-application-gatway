@@ -1,0 +1,48 @@
+
+
+### Assignment Write-Up
+
+**Title: Setting Up a Domain and Server on Azure with Application Gateway**
+
+**Introduction:**
+This assignment outlines the process of setting up a domain, configuring a server on an Azure virtual machine (VM), using a DNS server to manage traffic, and implementing an Azure Application Gateway to enhance traffic management and security.
+
+**Step-by-Step Process:**
+
+1. **Domain Registration:**
+   - Registered a domain with a chosen domain registrar.
+   - Example: mydomain.com.
+
+2. **VM Setup:**
+   - Created an Azure account and set up a VM.
+   - Chose appropriate VM specifications based on requirements.
+   - Configured networking, storage, and management settings.
+
+3. **DNS Configuration:**
+   - Set up Azure DNS and created a DNS zone for the domain.
+   - Added 'A' records to map the domain to the VM's public IP.
+   - Updated the domain registrar with Azure DNS name servers.
+
+4. **Server Configuration:**
+   - Connected to the VM via SSH (Linux) or RDP (Windows).
+   - Installed and configured server software (e.g., Apache, Nginx, IIS).
+   - Ensured the server was accessible via the domain.
+
+5. **Application Gateway Setup:**
+   - Created an Azure Application Gateway.
+   - Configured front-end IP, back-end pool, routing rules, listener, and HTTP settings.
+   - Added a CNAME record in the DNS zone to point to the Application Gateway.
+
+6. **Testing:**
+   - Verified domain accessibility through the Application Gateway.
+   - Used tools to test traffic routing, load balancing, and security settings.
+
+**Conclusion:**
+This setup provides a robust solution for managing web traffic using Azure services. The domain is effectively managed, the server is securely configured, and the Application Gateway ensures efficient traffic distribution and enhanced security features.
+
+**References:**
+- [Azure Virtual Network Overview](https://learn.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview)
+- [YouTube: Azure Private Link](https://www.youtube.com/watch?v=57ZwdztCx2w)
+- [YouTube: Azure Application Gateway](https://www.youtube.com/watch?v=-SRk0hHa-S0)
+
+Thanks.
